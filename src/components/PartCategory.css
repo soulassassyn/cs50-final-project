@@ -1,0 +1,180 @@
+p
+{
+    text-align: center;
+    margin: 10px 0px;
+    font-size: large;
+}
+
+button
+{
+    background-color:#efad69;   
+    border-color: #efad69;
+    border-style:solid;
+    border-width: 4px;
+    padding: 10px 24px;
+    font-size: large;
+    font-weight: 700;
+    color:#1c0f1d;
+}
+
+button:hover
+{
+    color:#f8f9fa;
+    background-color: #cd7546;
+    border-color:#cd7546;
+}
+
+button:disabled, button:disabled:hover
+{
+    background-color: #efad69;
+    border-color:#efad69;
+    color:#efad69;
+}
+
+.btn-right
+{
+    border-radius: 0px 0px 12px 0px;
+    width: 140px;
+    height: 55px;
+    outline: none;
+}
+
+.btn-left
+{
+    border-radius: 0px 0px 0px 12px;
+    width: 140px;
+    height: 55px;
+    outline: none;
+}
+
+.part-category
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 512px;
+}
+
+.part-category-header
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 492px;
+    border-color: #efad69;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 12px 12px 0px 0px;
+    background-color: #1d2934;
+}
+
+.part-category-options
+{
+    display: flex;
+    margin: 10px 0px 0px 0px;
+    flex-direction: row;
+    width: 512px;
+    justify-content: center;
+}
+
+
+/* START PART TYPE VARIANTS */
+.part-type
+{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color:#101821;
+    border-color: #efad69;
+    border-width: 4px;
+    border-style: solid;
+    width: 150px;
+    height: 150px;
+}
+.part-type:hover {
+    border-color: #cd7546;
+    cursor:pointer;
+}
+
+.cockpit img
+{
+    width: auto;
+    height: 65%;
+}
+.cockpit:hover img
+{
+    width: auto;
+    height: 75%;
+}
+
+.engine img
+{
+    width: 70%;
+    height: auto;
+}
+.engine:hover img
+{
+    width: 80%;
+    height: auto;
+}
+
+.fuselage img
+{
+    width: auto;
+    height: 70%;
+}
+.fuselage:hover img
+{
+    width: auto;
+    height: 80%;
+}
+
+.tail img
+{
+    width: 75%;
+    height: auto;
+}
+.tail:hover img
+{
+    width: 85%;
+    height: auto;
+}
+
+.wings img
+{
+    width: 75%;
+    height: auto;
+}
+.wings:hover img
+{
+    width: 85%;
+    height: auto;
+}
+/* END PART TYPE VARIANTS */
+
+
+.part-category-nav
+{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width:512px;
+}
+
+.nav-title
+{
+    margin:0px;
+    border-color:#efad69;
+    border-style:solid;
+    border-width: 4px;
+    padding: 9px 10px;
+    background-color: #1d2934;
+    width:212px;
+    text-align: center;
+}

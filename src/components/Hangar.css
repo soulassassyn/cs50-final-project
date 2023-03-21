@@ -1,0 +1,55 @@
+.hangar-bay
+{
+    position: relative;
+    width: 512px;
+    height: 512px;
+}
+
+.hangar-bay-image
+{
+    position: absolute;
+    width: 512px;
+    height: 512px;
+}
+
+.parts
+{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 512px;
+    height: 512px;
+}
+
+.cockpit-selected
+{
+    position: absolute;
+    width: 5.5%;
+    z-index: 3;
+}
+.engine-selected
+{
+    position: absolute;
+    width: 21%;
+    z-index: 2;
+}
+.fuselage-selected
+{
+    position: absolute;
+    width: 7%;
+    z-index: 1;
+}
+.tail-selected
+{
+    position: absolute;
+    width: 23.5%;
+    z-index: 3;
+}
+.wings-selected
+{
+    position: absolute;
+    width: 54.7%;
+    z-index: 2;
+}
